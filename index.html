@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bruna e Fabricio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#sobre">Noivos</a>
+        <a href="#casamento">Casamento</a>
+        <a href="#presente">Presentes</a>
+    </nav>
+
+    <header class="centrado">
+        <h1>Bruna e Fabrício</h1>
+    </header>
+
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="./Imagens/Imagem1.jpg" alt="slide 1">
+                <img class="img-mobi" src="./Imagens/Imagem1M.png" alt="slide 1">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./Imagens/Imagem2.png" alt="slide 2">
+                <img class="img-mobi" src="./Imagens/Imagem2M.png" alt="slide 2">
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./Imagens/Imagem3.png" alt="slide 3">
+                <img class="img-mobi" src="./Imagens/Imagem3M.png" alt="slide 3">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <div class="frase">
+        <blockquote class="frase text-center">
+            <p1 class="mb-0">"Isso vem do Senhor, e é algo maravilhoso para nós."</p1>
+            <h4 class="blockquote-footer"><cite title="Título da fonte">Salmo 118:23</cite>
+            </h4>
+        </blockquote>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <section id="sobre">
+        <h1>Sobre os Noivos</h1>
+        <p id="textoInformativo">Texto informativo</p>
+    </section>
+
+    <section id="casamento">
+        <h1>Casamento</h1>
+        <p id="textoInformativo">Abaixo temos as informações desse grande dia: deixe tudo programado e não se atrase.
+            Leve com você muitas energias positivas e lembre se de aproveitar cada momento! </p>
+
+        <div class="fundoAzul">
+            <div class="mapa">
+                <p1 class="headerData">Cerimônia</p1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58887.425735044!2d-47.75809827832028!3d-22.710984900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c634001b9abbbb%3A0xbcf18847869ee872!2sPar%C3%B3quia%20S%C3%A3o%20Francisco%20Assis!5e0!3m2!1spt-BR!2sbr!4v1706725101424!5m2!1spt-BR!2sbr"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapaind"></iframe>
+            </div>
+
+            <div class="dataDiv">
+                <p1 class="headerData">Data</p1>
+                <img class="data" src="./Imagens/Data.jpeg" alt="Data">
+                <img class="data_mob" src="./Imagens/datamob.jpg" alt="Data1">
+            </div>
+
+            <div class="mapa">
+                <p1 class="headerData">Recepção</p1>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.8840757295184!2d-47.648140524693666!3d-22.769682979351845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c630876033d581%3A0xf980634bcad98b3!2sVilla%20Felicita!5e0!3m2!1spt-BR!2sbr!4v1706746803461!5m2!1spt-BR!2sbr"
+                    width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapaind"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="presente">
+        <h1>Presentes</h1>
+        <p id="textoInformativo">Para presentar e ajudar os noivos, você pode:</p>
+        <p id="textoInformativo">Contribuir com uma quantia em dinheiro para:</p>
+
+        <div class="fundoBrancoPresente">
+            <div class="GrupoSugestao">
+                <p1 id="textoInformativoPres">Mobiliar a casa</p1>
+                <img class="img-desktop-presente" src="./Imagens/casa-limpa.png" alt="casa" onclick="copiartexto('Mobiliar a casa')"> 
+            </div>
+
+            <div class="GrupoSugestao">
+                <p1 id="textoInformativoPres">Ajudar nos itens diversos da casa</p1>
+                <img class="img-desktop-presente" src="./Imagens/caixas.png" alt="casa" onclick="copiartexto('Ajudar nos itens diversos da casa')"> 
+            </div>
+
+            <div class="GrupoSugestao">
+                <p1 id="textoInformativoPres">Ajudar na viagem de lua de mel</p1>
+                <img class="img-desktop-presente" src="./Imagens/lua-de-mel (1).png" alt="casa" onclick="copiartexto('Ajudar na viagem de lua de mel')"> 
+            </div>
+
+            <div class="GrupoSugestao">
+                <p1 id="textoInformativoPres">Compra dos eletrodomésticos</p1>
+                <img class="img-desktop-presente" src="./Imagens/eletrodomestico.png" alt="casa" onclick="copiartexto('Compra dos eletrodomésticos')"> 
+            </div>
+
+            <div class="GrupoSugestao">
+                <p1 id="textoInformativoPres">Sofá da casa nova</p1>
+                <img class="img-desktop-presente" src="./Imagens/sofa.png" alt="casa" onclick="copiartexto('Sofá da casa nova')"> 
+            </div>
+
+            <div class="GrupoSugestao">
+                <p1 id="textoInformativoPres">Cortina da casa nova</p1>
+                <img class="img-desktop-presente" id="ultimalinha" src="./Imagens/cortinas.png" alt="casa" onclick="copiartexto('Cortina da casa nova')"> 
+            </div>
+
+            <img class="img-desktop-bf" src="./Imagens/Bf.jpg" alt="bf">
+        </div>
+        
+        <p id="textoInformativo">Ao clicar em uma das sugestões, a descrição dela será colada na sua aréa de transferência para você contar para os noivos no que está ajudando e presenteando eles.</p>
+        <p id="textoInformativo">Você pode escolher uma ou mais das opções acima e realizar um pix atrávez do QrCode ou Chave PIX abaixo. Ao realizar o PIX, informe os noivos no que está contribuindo e se quiser deixe uma mensagem carinhosa a eles.</p>
+
+        <div class="fundoBranco">
+            <div class="fundoPix">
+            <img class="pix" src="./Imagens/pix.jpg" alt="bf">
+                <button onclick="copiar()" >Copiar chave PIX</button>
+            </div>
+
+            <img class="img-desktop-bf" src="./Imagens/Bf.jpg" alt="bf">
+        </div>
+
+        <p id="textoInformativo">Caso você deseje parcelar (tem a opção de cartão) ou presentea-los de outra forma, favor entrar em contato com um dos noivos:</p>
+
+        <div class="fundoBrancoContato">
+            <div class="Contato">
+                <p1 id="textoInformativo">Noiva</p1>
+                <img class="QrCodeContato" src="./Imagens/QrcodeBia.jpg" alt="qrcode" onclick="copiartexto('19 98158-8933')">
+                <p1 id="textoInformativo">19 98158-8933</p1>
+                <p1 id="textoInformativo">Bruna Francisco</p1>
+            </div>
+
+            <div class="Contato">
+                <p1 id="textoInformativo">Noivo</p1>
+                <img class="QrCodeContato" src="./Imagens/QrcodeBia.jpg" alt="qrcode" onclick="copiartexto('19 99627-1560')">
+                <p1 id="textoInformativo">19 99627-1560</p1>
+                <p1 id="textoInformativo">Fabricio Dario</p1>
+            </div>
+
+            <img class="img-desktop-bf" src="./Imagens/Bf.jpg" alt="bf">
+        </div>
+
+        <p id="textoInformativo">Você pode também acessar a loja escolhida pelo noivos e presentea-los por lá. Abaixo está o LINK:</p>
+
+        <div class="fundoBrancoContato">
+            <div class="QrCodeLoja">
+                <p id="textoInformativoPres">Confira a <a href="https://m.querodecasamento.com.br/lista-de-casamento/bruna--fabricio24" target="_blank">lista de presentes</a>.</p>
+                <img class="QrCodeLojaimg" src="./Imagens/QrCodeLoja.jpg" alt="qrcode" onclick="copiartexto('https://m.querodecasamento.com.br/lista-de-casamento/bruna--fabricio24')">
+            </div>
+
+            <img class="img-desktop-bf" src="./Imagens/Bf.jpg" alt="bf">
+        </div>
+    </section>
+</body>
+
+</html>

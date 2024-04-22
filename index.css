@@ -1,0 +1,358 @@
+body {
+    background-color: #dedcf7;
+    color: #191970;
+    margin: unset;
+    padding: unset;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 30px;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 10px;
+}
+
+section.slider {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0% !important;
+    overflow: hidden;
+    padding-bottom: 30px !important;
+}
+
+.slider-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input,
+.img-mobi {
+    display: none;
+}
+
+.data_mob{
+    display: none;
+}
+
+.slide-box {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    transition: 1s;
+}
+
+.slide-box img {
+    width: 100%;
+}
+
+.nav-manual,
+.nav-auto {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    height: 22px;
+}
+
+.nav-manual .manual-btn,
+.nav-auto div {
+    border: 1px solid #191970;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover {
+    background-color: #191970;
+}
+
+#radio1:checked~.nav-auto .auto-btn1,
+#radio2:checked~.nav-auto .auto-btn2,
+#radio3:checked~.nav-auto .auto-btn3 {
+    /*Sempre que o radio1 estiver marcado, mudar a cor da bolinha */
+    background-color: #191970;
+}
+
+#radio1:checked~.primeiro {
+    margin-left: 0%;
+}
+
+#radio2:checked~.primeiro {
+    margin-left: -25%;
+}
+
+#radio3:checked~.primeiro {
+    margin-left: -50%;
+}
+
+
+.frase {
+    margin: 15px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0px;
+    position: relative;
+}
+
+nav::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background-color: #191970;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav:hover ::after{
+    width: 100%;
+}
+
+a {
+    color: #191970;
+}
+
+section {
+    margin: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#textoInformativo {
+    color: dimgrey;
+    font-size: 20px;
+}
+
+.fundoAzul {
+    background-color: #191970;
+    height: 400px;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+#textoInformativoImagem {
+    color: #191970;
+    font-size: 50px;
+    background-color: #dedcf7;
+    border-radius: 20px;
+}
+
+.data {
+    height: 300px;
+}
+
+.headerData {
+    color: #dedcf7;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+
+.mapa{
+    margin: 0;
+    padding: 0;
+}
+
+.dataDiv{
+    margin: 0;
+}
+
+.fundoBranco{
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    height: 520px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}  
+
+.fundoBrancoPresente{
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}  
+
+.fundoBrancoContato{
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}  
+
+
+.fundoPix{
+    width: 100%;
+    height: calc(100% - 36px);
+    max-width: 415px;
+    padding: 5px 0px;
+}
+
+.img-desktop-bf{
+    width: 10%;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.mapaind{
+    width: 400px; 
+    height: 300px; 
+    border: 0;
+}
+
+.pix{
+    width: auto; 
+    height: 98%; 
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+button{
+    cursor: pointer;
+    border: 0;
+    padding: 6px 15px;
+    border-radius: 5px;
+    background-color: #191970;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.9;
+    background-color: #dedcf7;
+    color: #191970;
+    border: 0;
+}
+
+button:focus{
+    outline: 0px;
+}
+
+.img-desktop-presente{
+    height: auto;
+    width: 15%;
+}
+
+.GrupoSugestao{
+    display: flex;
+    height: max-content;
+    width: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerPresente{
+    margin: 10px;
+}
+
+#ultimalinha{
+    margin-bottom: 20px;
+}
+
+.QrCodeContato{
+    height: auto;
+    width: 100%;
+}
+
+.Contato{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+#textoInformativoPres {
+    color: dimgrey;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.QrCodeLojaimg{
+    height: auto;
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .img-desktop,.data {
+        display: none;
+    }
+
+    .img-mobi, .data_mob {
+        display: block;
+    }
+
+    .data_mob{
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .fundoAzul{
+        display: block;
+        height: auto;
+    }
+
+    .mapaind{
+        width: 100%;
+    }
+
+    .pix{
+        width: 95%;
+    }
+
+    .nav-auto,
+    .nav-manual {
+        margin-top: 60%;
+    }
+
+    .Contato{
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+}

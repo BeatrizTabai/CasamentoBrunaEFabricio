@@ -99,7 +99,6 @@ section.slider {
     margin-left: -50%;
 }
 
-
 .frase {
     margin: 15px;
     font-size: 20px;
@@ -297,13 +296,13 @@ button:focus{
 
 .QrCodeContato{
     height: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .Contato{
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    align-items: center;
 }
 
 #textoInformativoPres {
